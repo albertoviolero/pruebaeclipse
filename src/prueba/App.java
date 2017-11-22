@@ -11,6 +11,8 @@ public class App {
 		
 		System.out.println("El nombre es : "+ p.dameElNombre(p));
 		System.out.println("El apellido es: " + p.getApellido());
+		
+		System.out.println("El nombre completo es : "+ p.getNombre()+" "+ p.getApellido());
 	}
 
 }
