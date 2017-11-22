@@ -32,5 +32,12 @@ public class Persona {
 	}
 	
 	
+	public String dameElNombre(Persona persona) {
+		
+		String nom = persona.getNombre();
+		return nom;
+	}
+	
+	
 	
 }
